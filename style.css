@@ -437,4 +437,49 @@ main .fast-payment .badges{
     gap: 1rem;
     align-self: center;
     flex-wrap: wrap;
+    max-width: 100%;
+}
+
+main .fast-payment .badge span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+main .fast-payment .badge{
+    padding: 0.5rem var(--card-padding);
+    background: var(--color-white);
+    border-radius: var(--border-radius-2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 300ms ease;
+}
+
+main .fast-payment .badge:hover{
+    box-shadow: 0 0 1.5rem var(--color-primary-light);
+    cursor: pointer;
+}
+
+main .fast-payment .badge:first-child span {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: fit-content;
+    font-size: 1.5rem;
+}
+
+main .fast-payment .badge div{
+    display: flex;
+    gap: 2rem;
+    align-self: center;
+}
+
+/* ======================= CANVAS =============*/
+canvas#chart{
+    background: var(--color-white);
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
 }
