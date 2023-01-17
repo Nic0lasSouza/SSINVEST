@@ -363,23 +363,23 @@ main section.middle .cards .card:hover{
     box-shadow: none;
 }
 
-main section.midddle .card .top{
+main section.middle .card .top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-main section.midddle .card .top .left{
+main section.middle .card .top .left{
     display: flex;
     gap: 0.5rem;
 }
 
-main section.midddle .card .top .left h2{
+main section.middle .card .top .left h2{
     font-weight: 200;
     font-size: 1.4rem;
 }
 
-main section.midddle .card .top .left img{
+main section.middle .card .top .left img{
     width: 2.3rem;
     height: 2.3rem;
     border: 1px solid white;
@@ -387,7 +387,7 @@ main section.midddle .card .top .left img{
     padding: 0.4rem;
 }
 
-main section.midddle .card .top img.right {
+main section.middle .card .top img.right {
     width: 3.5rem;
 }
 
@@ -395,3 +395,19 @@ main section.middle .card .middle{
     display: flex;
     justify-content: space-between;
 }
+
+main section.middle .card .middle .chip{
+    width: 3.5rem;
+}
+
+main section.middle .card .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main section.middle .card .bottom .right{
+    display: flex;
+    gap: 2rem;
+}
+
