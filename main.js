@@ -25,3 +25,20 @@ const chartGraph = new Chart(ctx, {
       responsive: true
      }
  })
+
+const menuBtn = document.querySelector('#meu-btn');
+const closeBtn = document.querySelector('#close-btn');
+const sidebar = document.querySelector('aside');
+
+menuBtn.addEventListener('click', () =>{
+  sidebar.style.display = 'block';
+})
+
+closeBtn.addEventListener('click', () =>{
+  sidebar.style.display = 'none';
+})
+
+const themeBtn = document.querySelector('.theme-btn');
+themeBtn.addEventListener('click',() =>{
+  document.body.classList.toggle('dark-theme');
+})
