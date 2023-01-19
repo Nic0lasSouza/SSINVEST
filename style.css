@@ -712,3 +712,6 @@ main .recent-transactions .card-details .card {
         gap: 1.4rem;
     }
 }
+.sem_fundo{
+    background: transparent;
+}

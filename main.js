@@ -42,3 +42,21 @@ const themeBtn = document.querySelector('.theme-btn');
 themeBtn.addEventListener('click',() =>{
   document.body.classList.toggle('dark-theme');
 })
+
+function Mudarestado(el) {
+  var display = document.getElementById(el).style.display;
+    if(display == "none"){
+      document.getElementById(el).style.display = 'block';
+    }else{
+      document.getElementById(el).style.display = 'none';
+    }
+
+}
+var imgAtual ="images/olhotachado.png";
+var imgAnterior = "images/olhoaberto.png";
+function trocar(){
+  document.getElementById("figura").src =imgAtual;
+  let aux = imgAtual;
+  imgAtual = imgAnterior;
+  imgAnterior = aux;
+}
