@@ -26,15 +26,15 @@ const chartGraph = new Chart(ctx, {
      }
  })
 
-const menuBtn = document.querySelector('#meu-btn');
+const menuBtn = document.querySelector('#menu-btn');
 const closeBtn = document.querySelector('#close-btn');
 const sidebar = document.querySelector('aside');
 
-menuBtn.addEventListener('click', () =>{
+menuBtn.addEventListener('click', () => {
   sidebar.style.display = 'block';
 })
 
-closeBtn.addEventListener('click', () =>{
+closeBtn.addEventListener('click', () => {
   sidebar.style.display = 'none';
 })
 
